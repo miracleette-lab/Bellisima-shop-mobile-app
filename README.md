@@ -34,6 +34,10 @@ npx expo run:ios
 npx expo run:android
 ```
 
+## Download an Android APK
+
+Pushing to `main` runs the [Android APK workflow](.github/workflows/android-apk.yml). When it finishes, the APK is published at the repository's `android-latest` release. To enable Google sign-in in that APK, add `EXPO_PUBLIC_API_URL` and `EXPO_PUBLIC_GOOGLE_ANDROID_CLIENT_ID` as GitHub Actions repository variables before the build runs. The website server also needs the matching `GOOGLE_ANDROID_CLIENT_ID` value.
+
 iOS builds require macOS and Xcode. Android builds require Android Studio and the Android SDK. The configured app scheme is `bellisima`.
 
 ## Account and bag behavior
