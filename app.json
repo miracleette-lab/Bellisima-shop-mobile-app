@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "Bellisima",
+    "slug": "bellisima-shop-mobile-app",
+    "scheme": "bellisima",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#f6f5f1"
+    },
+    "ios": {
+      "bundleIdentifier": "com.bellisima.shop",
+      "supportsTablet": false
+    },
+    "android": {
+      "package": "com.bellisima.shop",
+      "adaptiveIcon": {
+        "backgroundColor": "#f6f5f1"
+      }
+    },
+    "plugins": [
+      "expo-status-bar",
+      "expo-web-browser",
+      "expo-secure-store"
+    ]
+  }
+}
